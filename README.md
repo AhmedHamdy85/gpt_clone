@@ -31,9 +31,18 @@ To set up the project locally, follow these steps:
     ```sh
     cd gpt_clone
     ```
-3. Install dependencies
+3. create virtual environment
     ```sh
-    npm install
+    python -m venv env
+    ```
+4. activate virtual environment
+   ```sh
+    linux,mac => source env/bin/activate
+    windows => env\Scripts\activate
+       
+    ```
+5. Install dependencies
+    ```sh
     pip install -r requirements.txt
     ```
 
